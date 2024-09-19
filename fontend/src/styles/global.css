@@ -1,0 +1,124 @@
+.confirm-button {
+  margin-right: 40px; /* Adjust the value as needed */
+}
+
+.cancel-button {
+  margin-left: 10px; /* Adjust the value as needed */
+}
+:root {
+  &,&.light-mode {
+  
+  /* Grey */
+  --color-grey-10: #f2f1f6;
+  --color-grey-50: #e6e5ed;
+  --color-grey-100: #d9d8e4;
+  --color-grey-200: #c0bfd5;
+  --color-grey-300: #9c9ab9;
+  --color-grey-400: #7a799e;
+  --color-grey-500: #615f87;
+  --color-grey-600: #4a495f;
+  --color-grey-700: #38384a;
+  --color-grey-800: #272733;
+  --color-grey-900: #16161d;
+
+  --color-blue-100: #e0f2fe;
+  --color-green-100: #dcfce7;
+  --color-yellow-100: #fef9c3;
+  --color-yellow-700: #a16207;
+
+  /* custom */
+  --color-primary-50: #E0F7FA;
+  --color-primary-100: #B2EBF2;
+  --color-primary-200: #80DEEA;
+  --color-primary-300: #4DD0E1;
+  --color-primary-400: #26C6DA;
+  --color-primary-500: #00BCD4;
+
+  --color-outline-focus: #FF9800;
+
+
+
+
+
+
+
+
+
+
+
+    
+  --backdrop-color: rgba(211, 149, 149, 0.15);
+
+  --shadow-round: 0 0 1.5rem .6rem rgba(0, 0, 0, 0.04);
+  --shadow-sm: 0 0.6rem 1.5rem rgba(0, 0, 0, 0.04);
+  --shadow-md: 0px 0.6rem 2.4rem rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 2.4rem 3.2rem rgba(0, 0, 0, 0.12);
+
+  --image-grayscale: 0;
+  --image-opacity: 100%;
+  }
+  
+  &.dark-mode {
+    
+  --color-grey-10: #16161d;
+  --color-grey-50: #272733;
+  --color-grey-100: #38384a;
+  --color-grey-200: #4a495f;
+  --color-grey-300: #615f87;
+  --color-grey-400: #7a799e;
+  --color-grey-500: #9c9ab9;
+  --color-grey-600: #c0bfd5;
+  --color-grey-700: #d9d8e4;
+  --color-grey-800: #e6e5ed;
+  --color-grey-900: #f2f1f6;
+
+  --color-primary-50: #0D0D11;
+  --color-primary-100: #1A1A22;
+  --color-primary-200: #2B2B37;
+  --color-primary-300: #4B4B60;
+  --color-primary-400: #6F6F8B;
+  --color-primary-500: #9A9AB4;
+    
+  --backdrop-color: rgba(75, 42, 42, 0.4);
+    
+  --shadow-round: 0 0 1.5rem 0 rgba(0, 0, 0, 0.3);
+  --shadow-sm: 0 0.6rem 1.5rem rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 0.6rem 2.4rem rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 2.4rem 3.2rem rgba(0, 0, 0, 0.6);
+    
+  --image-grayscale: 10%;
+  --image-opacity: 90%;
+
+  }
+
+  /* Brand colors */
+   /* Indigo */
+  --color-brand-10: #f2f1f6; /* Almost White Indigo */
+  --color-brand-50: #ff989a; /* Almost White Pink */
+  --color-brand-100: #ff9094; /* Very Light Pink */
+  --color-brand-200: #ff7a8f; /* Even Lighter Pink */
+  --color-brand-500: #ff6389; /* Lighter Pink */
+  --color-brand-600: #ff4c84; /* Your Preferred Pink */
+  --color-brand-700: #3C2F55; /* Dark Purple */
+  --color-brand-800: #2C1F40; /* Darker Purple */
+  --color-brand-900: #201535; /* Even Darker Purple */
+
+  --color-red-100: #FFECEC;  /* Lighter Red */
+  --color-red-700: #E60000;  /* Medium Red */
+  --color-red-800: #B30000;  /* Darker Red */
+
+  --color-green-100: #E6FFF2;  /* Very Light Green */
+  --color-green-700: #00DF7B;  /* Bright Green */
+  --color-green-800: #008F60;  /* Darker Green */
+
+  --color-blue-100: #E6E6FF;  /* Very Light Blue */
+  --color-blue-700: #7B7BDF;  /* Medium Blue */
+  --color-blue-800: #5252B0;  /* Darker Blue */
+
+  --border-radius-tiny: 5px;
+  --border-radius-sm: 7px;
+  --border-radius-md: 10px;
+  --border-radius-lg: 15px;
+  --border-radius-xl: 25px;
+  --border-radius-full: 50%;
+}
